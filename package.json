@@ -1,0 +1,11 @@
+{
+  "name": "linux-adventure",
+  "version": "0.1.0",
+  "description": "Linux 大冒险 —— 游戏化 Linux 命令行学习（零成本开源版 MVP）",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tests/judge.test.mjs"
+  },
+  "license": "MIT"
+}

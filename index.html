@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linux 大冒险 · 游戏化 Linux 学习</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐧</text></svg>">
+  <link rel="stylesheet" href="vendor/xterm.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <header id="topbar">
+      <div class="brand">🐧 Linux 大冒险</div>
+      <div class="stats">
+        <span id="stat-xp">⚡ 0 XP</span>
+        <span id="stat-coins">🪙 0</span>
+      </div>
+    </header>
+    <main id="main"></main>
+    <footer id="foot">开源 · 免费 · 浏览器内真实 Linux 沙箱 — 闯关学 Linux</footer>
+  </div>
+  <div id="toast"></div>
+  <script src="vendor/libv86.js"></script>
+  <script src="vendor/xterm.min.js"></script>
+  <script src="vendor/xterm-addon-fit.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
